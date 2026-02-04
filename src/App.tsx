@@ -29,7 +29,7 @@ function App() {
         <>
           <img
             alt="Cat Standing On A White Background"
-            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWVxcGpldXE0cWU5bDZ5aGwzcWUzZG03NTIycHRpeDNuMTBzYTQ3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4asRlBKdJaPeBahjcL/giphy.gif"
+            src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnYyYmp5b2hqcmZleGtnNGhub2l0djVsOXFscHo2MnJ2aWFtdnNtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2aw9gwZlltbdX92b4w/giphy.gif"
           />
           <div className="text">
             ana tani madabya
