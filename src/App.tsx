@@ -39,7 +39,7 @@ function App() {
         <>
           <img
             alt="Bear Holding A Bow And Arrow With A Heart"
-            src="https://media.giphy.com/media/joy5mccKvwK2pLn/giphy.gif"
+            src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnYyYmp5b2hqcmZleGtnNGhub2l0djVsOXFscHo2MnJ2aWFtdnNtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2aw9gwZlltbdX92b4w/giphy.gif"
           />
           <div>will you be my valentine?</div>
 
