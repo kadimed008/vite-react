@@ -1,35 +1,63 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+
+const phrases = [
+  "No",
+  "rak mnytk?",
+  "chof tcho?",
+  "ana mohamed aalbalk?",
+  "mattawdch hadi laffaire",
+  "aya aya khamm chwya :",
+];
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [nocount, setNoCount] = useState(0);
+  const [yesPressed, setYesPressed] = useState(false);
+  const yesButtonSize = nocount * 20 + 16;
+
+  function handleNoClick() {
+    setNoCount(nocount + 1);
+  }
+
+  function getNoButtonText() {
+    return phrases[Math.min(nocount, phrases.length - 1)];
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="valentine-container">
+      {yesPressed ? (
+        <>
+          <img
+            alt="Cat Standing On A White Background"
+            src="https://media.giphy.com/media/8LdQvgNwjJ4qra/giphy.gif"
+          />
+          <div className="text">
+            aalbalik bli ana chbab w gaa yghoml w ana nghilk nti
+          </div>
+        </>
+      ) : (
+        <>
+          <img
+            alt="Bear Holding A Bow And Arrow With A Heart"
+            src="https://media.giphy.com/media/joy5mccKvwK2pLn/giphy.gif"
+          />
+          <div>will you be my valentine?</div>
+
+          <button
+            className="yesButton"
+            style={{ fontSize: yesButtonSize }}
+            onClick={() => setYesPressed(true)}
+          >
+            yes
+          </button>
+
+          <button onClick={handleNoClick} className="nobutton">
+            {getNoButtonText()}
+          </button>
+        </>
+      )}
+    </div>
+  );
 }
 
-export default App
+export default App;
