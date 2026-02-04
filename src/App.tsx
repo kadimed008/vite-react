@@ -32,7 +32,7 @@ function App() {
             src="https://media.giphy.com/media/8LdQvgNwjJ4qra/giphy.gif"
           />
           <div className="text">
-            aalbalik bli ana chbab w gaa yghoml w ana nghilk nti
+            ana tani madabya
           </div>
         </>
       ) : (
