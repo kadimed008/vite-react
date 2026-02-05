@@ -41,7 +41,7 @@ function App() {
           <img
             alt="zawj"
             src={img2}
-            style={{width: "120px" , height: "auto"}}
+            style={{width: "360px" , height: "auto"}}
           />
           <div>will you be my valentine?</div>
 
