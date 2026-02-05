@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import img1 from "./images/yacine.jpg"
-import img2 from "./images/zawj.jpg"
+import img2 from "./images/yacine.jpg"
+import img1 from "./images/zawj.jpg"
 const phrases = [
   "No",
   "rak mnytk?",
