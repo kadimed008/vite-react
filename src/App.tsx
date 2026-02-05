@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-
+import img1 from "./images/yacine.jpg"
+import img2 from "./images/zawj.jpg"
 const phrases = [
   "No",
   "rak mnytk?",
@@ -28,18 +29,18 @@ function App() {
       {yesPressed ? (
         <>
           <img
-            alt="Cat Standing On A White Background"
-            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWVxcGpldXE0cWU5bDZ5aGwzcWUzZG03NTIycHRpeDNuMTBzYTQ3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4asRlBKdJaPeBahjcL/giphy.gif"
+            alt="yacine"
+            src={img1}
           />
           <div className="text">
-            ana tani madabya
+            nlwtk bih a777777
           </div>
         </>
       ) : (
         <>
           <img
-            alt="Bear Holding A Bow And Arrow With A Heart"
-            src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnYyYmp5b2hqcmZleGtnNGhub2l0djVsOXFscHo2MnJ2aWFtdnNtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2aw9gwZlltbdX92b4w/giphy.gif"
+            alt="zawj"
+            src={img2}
           />
           <div>will you be my valentine?</div>
 
